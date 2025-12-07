@@ -6,6 +6,10 @@
 [build.environment]
   PYTHON_VERSION = "3.9"
 
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "none"
+
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
