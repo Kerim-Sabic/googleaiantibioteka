@@ -1,0 +1,520 @@
+{
+  "metadata": {
+    "registry_version": "2025",
+    "country": "Bosnia and Herzegovina",
+    "drug_class": "Antibacterials - Beta-Lactams",
+    "atc_groups": ["J01C", "J01D"],
+    "last_updated": "2025-12-07"
+  },
+  "penicillins": {
+    "natural_penicillins": {
+      "J01CE": [
+        {
+          "generic_name": "Benzilpenicilin",
+          "trade_name": "PANCILLIN",
+          "manufacturer": "Hemofarm",
+          "atc_code": "J01CE09",
+          "regulatory_status": "ZU",
+          "formulations": [
+            {
+              "type": "powder_for_injection",
+              "strength": "800,000 IU",
+              "composition": "200,000 IU Benzylpenicillin potassium + 600,000 IU Benzylpenicillin procaine",
+              "route": "intramuscular",
+              "unit": "IU",
+              "warning": "PROCAINE COMPONENT - CONTRAINDICATED FOR IV BOLUS. Hoigné syndrome risk. IM ONLY."
+            }
+          ],
+          "indications": ["Neurosyphilis", "Severe cellulitis", "Group A Streptococcal infections"],
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Benzilpenicilin",
+          "trade_name": "DEVAPEN",
+          "manufacturer": "Deva Holding",
+          "atc_code": "J01CE09",
+          "regulatory_status": "ZU",
+          "formulations": [
+            {
+              "type": "powder_for_injection",
+              "strength": "800,000 IU",
+              "composition": "200,000 IU Benzylpenicillin potassium + 600,000 IU Benzylpenicillin procaine",
+              "route": "intramuscular",
+              "unit": "IU",
+              "warning": "PROCAINE COMPONENT - IM ONLY"
+            }
+          ],
+          "indications": ["Neurosyphilis", "Severe cellulitis"],
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Fenoksimetilpenicilin",
+          "trade_name": "OSPEN",
+          "manufacturer": "Sandoz",
+          "atc_code": "J01CE02",
+          "regulatory_status": "Rp",
+          "formulations": [
+            {
+              "type": "tablet",
+              "strength": "1,000,000 IU",
+              "route": "oral",
+              "unit": "IU"
+            },
+            {
+              "type": "tablet",
+              "strength": "1,500,000 IU",
+              "route": "oral",
+              "unit": "IU"
+            },
+            {
+              "type": "oral_suspension",
+              "strength": "750,000 IU/5mL",
+              "route": "oral",
+              "unit": "IU"
+            }
+          ],
+          "indications": ["Group A Streptococcal pharyngitis", "Erysipelas", "Step-down therapy"],
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Fenoksimetilpenicilin",
+          "trade_name": "LARGOCILIN",
+          "manufacturer": "Hemofarm",
+          "atc_code": "J01CE02",
+          "regulatory_status": "Rp",
+          "formulations": [
+            {
+              "type": "tablet",
+              "strength": "660 mg",
+              "route": "oral",
+              "unit": "mg",
+              "equivalent": "~1,000,000 IU"
+            },
+            {
+              "type": "tablet",
+              "strength": "1000 mg",
+              "route": "oral",
+              "unit": "mg",
+              "equivalent": "~1,500,000 IU"
+            }
+          ],
+          "indications": ["Pharyngitis", "Erysipelas"],
+          "pregnancy_category": "B"
+        }
+      ]
+    },
+    "antistaphylococcal_penicillins": {
+      "J01CF": [
+        {
+          "generic_name": "Kloksacilin",
+          "trade_name": "SYNTARPEN",
+          "manufacturer": "Polfa Tarchomin",
+          "atc_code": "J01CF02",
+          "regulatory_status": "ZU/Rp",
+          "formulations": [
+            {
+              "type": "powder_for_injection",
+              "strength": "1 g",
+              "route": "intravenous",
+              "unit": "g"
+            }
+          ],
+          "indications": ["MSSA infections", "Endocarditis (native valve)", "Catheter-related BSI", "Osteomyelitis"],
+          "clinical_notes": "ONLY beta-lactamase resistant penicillin available in BiH. Substitutes for Nafcillin/Oxacillin/Flucloxacillin.",
+          "typical_dosing": {
+            "endocarditis": "2g IV q4h",
+            "osteomyelitis": "2g IV q4-6h",
+            "standard": "1-2g IV q4-6h"
+          },
+          "is_anti_mrsa": false,
+          "pregnancy_category": "B"
+        }
+      ]
+    },
+    "aminopenicillins": {
+      "J01CA04": [
+        {
+          "generic_name": "Amoksicilin",
+          "trade_name": "ALMACIN",
+          "manufacturer": "Alkaloid",
+          "atc_code": "J01CA04",
+          "regulatory_status": "Rp",
+          "formulations": [
+            {
+              "type": "capsule",
+              "strength": "250 mg",
+              "route": "oral",
+              "unit": "mg"
+            },
+            {
+              "type": "capsule",
+              "strength": "500 mg",
+              "route": "oral",
+              "unit": "mg"
+            },
+            {
+              "type": "granules_for_suspension",
+              "strength": "250 mg/5mL",
+              "route": "oral",
+              "unit": "mg"
+            }
+          ],
+          "indications": ["CAP", "Otitis media", "Pharyngitis", "UTI", "Skin infections"],
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Amoksicilin",
+          "trade_name": "AMOKSICILIN HF",
+          "manufacturer": "Hemofarm",
+          "atc_code": "J01CA04",
+          "regulatory_status": "Rp",
+          "formulations": [
+            {
+              "type": "capsule",
+              "strength": "500 mg",
+              "route": "oral",
+              "unit": "mg"
+            }
+          ],
+          "indications": ["CAP", "Otitis media", "UTI"],
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Amoksicilin",
+          "trade_name": "AMOXIBOS",
+          "manufacturer": "Bosnalijek",
+          "atc_code": "J01CA04",
+          "regulatory_status": "Rp",
+          "formulations": [
+            {
+              "type": "capsule",
+              "strength": "250 mg",
+              "route": "oral",
+              "unit": "mg"
+            },
+            {
+              "type": "capsule",
+              "strength": "500 mg",
+              "route": "oral",
+              "unit": "mg"
+            },
+            {
+              "type": "granules_for_suspension",
+              "strength": "250 mg/5mL",
+              "route": "oral",
+              "unit": "mg"
+            }
+          ],
+          "indications": ["CAP", "Otitis media", "UTI"],
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Amoksicilin",
+          "trade_name": "HICONCIL",
+          "manufacturer": "Krka",
+          "atc_code": "J01CA04",
+          "regulatory_status": "Rp",
+          "formulations": [
+            {
+              "type": "capsule",
+              "strength": "500 mg",
+              "route": "oral",
+              "unit": "mg"
+            }
+          ],
+          "indications": ["CAP", "Otitis media", "UTI"],
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Amoksicilin",
+          "trade_name": "SINACILIN",
+          "manufacturer": "Galenika",
+          "atc_code": "J01CA04",
+          "regulatory_status": "Rp",
+          "formulations": [
+            {
+              "type": "capsule",
+              "strength": "250 mg",
+              "route": "oral",
+              "unit": "mg"
+            },
+            {
+              "type": "capsule",
+              "strength": "500 mg",
+              "route": "oral",
+              "unit": "mg"
+            },
+            {
+              "type": "granules_for_suspension",
+              "strength": "250 mg/5mL",
+              "route": "oral",
+              "unit": "mg"
+            }
+          ],
+          "indications": ["CAP", "Otitis media", "UTI"],
+          "pregnancy_category": "B"
+        }
+      ],
+      "J01CA01": [
+        {
+          "generic_name": "Ampicilin",
+          "trade_name": "AMPICILLIN ANTIBIOTICE",
+          "manufacturer": "Antibiotice",
+          "atc_code": "J01CA01",
+          "regulatory_status": "ZU",
+          "formulations": [
+            {
+              "type": "powder_for_injection",
+              "strength": "1 g",
+              "route": "intravenous",
+              "unit": "g"
+            }
+          ],
+          "indications": ["Meningitis (Listeria coverage)", "Endocarditis (Enterococcus)"],
+          "clinical_notes": "Essential for Listeria coverage in meningitis (age >50, immunocompromised)",
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Ampicilin",
+          "trade_name": "PENTREXYL",
+          "manufacturer": "Bristol-Myers Squibb",
+          "atc_code": "J01CA01",
+          "regulatory_status": "Rp/ZU",
+          "formulations": [
+            {
+              "type": "powder_for_injection",
+              "strength": "1 g",
+              "route": "intravenous",
+              "unit": "g"
+            }
+          ],
+          "indications": ["Meningitis (Listeria)", "Endocarditis"],
+          "pregnancy_category": "B"
+        }
+      ]
+    },
+    "combinations_penicillins": {
+      "J01CR02": [
+        {
+          "generic_name": "Amoksicilin + Klavulanska kiselina",
+          "trade_name": "AMOKSIKLAV",
+          "manufacturer": "Sandoz",
+          "atc_code": "J01CR02",
+          "regulatory_status": "Rp/ZU",
+          "formulations": [
+            {
+              "type": "tablet",
+              "strength": "500mg/125mg",
+              "route": "oral",
+              "unit": "mg",
+              "dosing": "q8h"
+            },
+            {
+              "type": "tablet",
+              "strength": "875mg/125mg",
+              "route": "oral",
+              "unit": "mg",
+              "dosing": "q12h (BID)",
+              "preferred": true
+            },
+            {
+              "type": "powder_for_injection",
+              "strength": "1000mg/200mg",
+              "route": "intravenous",
+              "unit": "mg"
+            }
+          ],
+          "indications": ["CAP", "Sinusitis", "Diabetic foot", "Intra-abdominal", "Skin infections"],
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Amoksicilin + Klavulanska kiselina",
+          "trade_name": "AUGMENTIN",
+          "manufacturer": "GSK",
+          "atc_code": "J01CR02",
+          "regulatory_status": "Rp/ZU",
+          "formulations": [
+            {
+              "type": "tablet",
+              "strength": "875mg/125mg",
+              "route": "oral",
+              "unit": "mg",
+              "dosing": "q12h (BID)"
+            },
+            {
+              "type": "oral_suspension",
+              "strength": "400mg/57mg per 5mL",
+              "route": "oral",
+              "unit": "mg",
+              "pediatric": true,
+              "preferred_pediatric": true
+            }
+          ],
+          "indications": ["CAP", "Otitis media", "Sinusitis"],
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Amoksicilin + Klavulanska kiselina",
+          "trade_name": "PANKLAV",
+          "manufacturer": "Hemofarm",
+          "atc_code": "J01CR02",
+          "regulatory_status": "Rp/ZU",
+          "formulations": [
+            {
+              "type": "tablet",
+              "strength": "875mg/125mg",
+              "route": "oral",
+              "unit": "mg",
+              "dosing": "q12h (BID - Panklav 2X)"
+            },
+            {
+              "type": "oral_suspension",
+              "strength": "400mg/57mg per 5mL",
+              "route": "oral",
+              "unit": "mg",
+              "pediatric": true,
+              "product_name": "Panklav 2X Forte"
+            },
+            {
+              "type": "powder_for_injection",
+              "strength": "1000mg/200mg",
+              "route": "intravenous",
+              "unit": "mg"
+            }
+          ],
+          "indications": ["CAP", "Otitis media", "Diabetic foot", "HAP"],
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Amoksicilin + Klavulanska kiselina",
+          "trade_name": "KLAVOCIN BID",
+          "manufacturer": "Pliva",
+          "atc_code": "J01CR02",
+          "regulatory_status": "Rp",
+          "formulations": [
+            {
+              "type": "tablet",
+              "strength": "875mg/125mg",
+              "route": "oral",
+              "unit": "mg",
+              "dosing": "q12h (BID)"
+            }
+          ],
+          "indications": ["CAP", "Sinusitis", "Skin infections"],
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Amoksicilin + Klavulanska kiselina",
+          "trade_name": "DUOCLAV",
+          "manufacturer": "Bosnalijek",
+          "atc_code": "J01CR02",
+          "regulatory_status": "Rp",
+          "formulations": [
+            {
+              "type": "tablet",
+              "strength": "875mg/125mg",
+              "route": "oral",
+              "unit": "mg",
+              "dosing": "q12h (BID)"
+            }
+          ],
+          "indications": ["CAP", "Sinusitis"],
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Amoksicilin + Klavulanska kiselina",
+          "trade_name": "KLAVAMOX",
+          "manufacturer": "Amsal",
+          "atc_code": "J01CR02",
+          "regulatory_status": "Rp",
+          "formulations": [
+            {
+              "type": "tablet",
+              "strength": "875mg/125mg",
+              "route": "oral",
+              "unit": "mg",
+              "dosing": "q12h (BID)"
+            }
+          ],
+          "indications": ["CAP", "Sinusitis"],
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Amoksicilin + Klavulanska kiselina",
+          "trade_name": "XICLAV",
+          "manufacturer": "Sandoz",
+          "atc_code": "J01CR02",
+          "regulatory_status": "Rp",
+          "formulations": [
+            {
+              "type": "tablet",
+              "strength": "875mg/125mg",
+              "route": "oral",
+              "unit": "mg",
+              "dosing": "q12h (BID - Xiclav 2X)"
+            }
+          ],
+          "indications": ["CAP", "Sinusitis"],
+          "pregnancy_category": "B"
+        }
+      ],
+      "J01CR05": [
+        {
+          "generic_name": "Piperacilin + Tazobaktam",
+          "trade_name": "PIPERACILLIN/TAZOBACTAM KABI",
+          "manufacturer": "Fresenius Kabi",
+          "atc_code": "J01CR05",
+          "regulatory_status": "ZU",
+          "formulations": [
+            {
+              "type": "powder_for_infusion",
+              "strength": "4g/0.5g",
+              "route": "intravenous",
+              "unit": "g"
+            }
+          ],
+          "indications": ["HAP/VAP", "Neutropenic fever", "Intra-abdominal sepsis", "Pseudomonas infections"],
+          "is_antipseudomonal": true,
+          "clinical_notes": "Recommend EXTENDED INFUSION (3-4 hours) for critically ill patients (SOFA >2)",
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Piperacilin + Tazobaktam",
+          "trade_name": "PIPERACILLIN/TAZOBACTAM KALCEKS",
+          "manufacturer": "Kalceks",
+          "atc_code": "J01CR05",
+          "regulatory_status": "ZU",
+          "formulations": [
+            {
+              "type": "powder_for_infusion",
+              "strength": "4g/0.5g",
+              "route": "intravenous",
+              "unit": "g"
+            }
+          ],
+          "indications": ["HAP/VAP", "Neutropenic fever", "Pseudomonas"],
+          "is_antipseudomonal": true,
+          "pregnancy_category": "B"
+        },
+        {
+          "generic_name": "Piperacilin + Tazobaktam",
+          "trade_name": "PIPERACILLIN/TAZOBACTAM PANPHARMA",
+          "manufacturer": "Panpharma",
+          "atc_code": "J01CR05",
+          "regulatory_status": "ZU",
+          "formulations": [
+            {
+              "type": "powder_for_infusion",
+              "strength": "4g/0.5g",
+              "route": "intravenous",
+              "unit": "g"
+            }
+          ],
+          "indications": ["HAP/VAP", "Neutropenic fever", "Pseudomonas"],
+          "is_antipseudomonal": true,
+          "pregnancy_category": "B"
+        }
+      ]
+    }
+  }
+}

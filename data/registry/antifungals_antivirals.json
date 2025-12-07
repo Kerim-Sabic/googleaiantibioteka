@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "registry_version": "2025",
+    "country": "Bosnia and Herzegovina",
+    "drug_classes": ["Antifungals", "Antivirals"],
+    "atc_groups": ["J02", "J05"],
+    "last_updated": "2025-12-07"
+  },
+  "antifungals": {
+    "azoles": {
+      "fluconazole": [
+        {"generic_name": "Flukonazol", "trade_name": "DIFLUCAN", "manufacturer": "Pfizer", "atc_code": "J02AC01", "regulatory_status": "Rp/ZU", "formulations": [{"type": "capsule", "strength": "150 mg", "route": "oral"}, {"type": "solution_for_infusion", "strength": "200 mg/100mL", "route": "intravenous"}], "indications": ["Vaginal candidiasis", "Candidemia", "Cryptococcal meningitis"], "pregnancy_category": "C"},
+        {"generic_name": "Flukonazol", "trade_name": "FLUCONAL", "manufacturer": "Hemofarm", "atc_code": "J02AC01", "regulatory_status": "Rp", "formulations": [{"type": "capsule", "strength": "150 mg", "route": "oral"}], "pregnancy_category": "C"}
+      ],
+      "voriconazole": [
+        {"generic_name": "Vorikonazol", "trade_name": "VFEND", "manufacturer": "Pfizer", "atc_code": "J02AC03", "regulatory_status": "ZU", "formulations": [{"type": "tablet", "strength": "200 mg", "route": "oral"}, {"type": "powder_for_infusion", "strength": "200 mg", "route": "intravenous"}], "indications": ["Invasive aspergillosis", "Candida spp (resistant)", "Fungal sepsis"], "clinical_notes": "GOLD STANDARD for invasive aspergillosis. Requires therapeutic monitoring.", "is_reserved": true, "pregnancy_category": "D"}
+      ],
+      "posaconazole": [
+        {"generic_name": "Posakonazol", "trade_name": "NOXAFIL", "manufacturer": "MSD", "atc_code": "J02AC04", "regulatory_status": "ZU", "formulations": [{"type": "tablet", "strength": "100 mg", "route": "oral"}], "indications": ["Aspergillosis prophylaxis", "Mucormycosis"], "is_reserved": true, "pregnancy_category": "C"}
+      ]
+    },
+    "echinocandins": {
+      "caspofungin": [
+        {"generic_name": "Kaspofungin", "trade_name": "CASPOFUNGIN ANFARM", "manufacturer": "Anfarm", "atc_code": "J02AX04", "regulatory_status": "ZU", "formulations": [{"type": "powder_for_infusion", "strength": "50 mg", "route": "intravenous"}, {"type": "powder_for_infusion", "strength": "70 mg", "route": "intravenous"}], "indications": ["Invasive candidiasis", "Aspergillosis (salvage)", "Neutropenic fever (empiric)"], "clinical_notes": "First-line for invasive candidiasis in ICU/neutropenia. Loading dose 70mg, then 50mg daily.", "is_reserved": true, "pregnancy_category": "C"},
+        {"generic_name": "Kaspofungin", "trade_name": "CANCIDAS", "manufacturer": "MSD", "atc_code": "J02AX04", "regulatory_status": "ZU", "formulations": [{"type": "powder_for_infusion", "strength": "70 mg", "route": "intravenous"}], "is_reserved": true, "pregnancy_category": "C"}
+      ],
+      "micafungin": [
+        {"generic_name": "Mikafungin", "trade_name": "MYCAMINE", "manufacturer": "Astellas", "atc_code": "J02AX05", "regulatory_status": "ZU", "formulations": [{"type": "powder_for_infusion", "strength": "100 mg", "route": "intravenous"}], "indications": ["Invasive candidiasis", "Aspergillosis prophylaxis"], "is_reserved": true, "pregnancy_category": "C"}
+      ]
+    },
+    "polyenes": {
+      "amphotericin_b": [
+        {"generic_name": "Amfotericin B", "trade_name": "ABELCET", "manufacturer": "Teva", "atc_code": "J02AA01", "regulatory_status": "ZU", "formulations": [{"type": "lipid_complex_injection", "strength": "100 mg/20mL", "route": "intravenous"}], "indications": ["Invasive fungal infections", "Mucormycosis", "Cryptococcal meningitis"], "clinical_notes": "LIPID COMPLEX formulation. LESS nephrotoxic. Dose: 3-5 mg/kg/day (vs 0.7-1 mg/kg for deoxycholate).", "is_reserved": true, "pregnancy_category": "B"},
+        {"generic_name": "Amfotericin B", "trade_name": "AMPHOTERICIN B BHARAT", "manufacturer": "Bharat", "atc_code": "J02AA01", "regulatory_status": "ZU", "formulations": [{"type": "powder_for_injection", "strength": "50 mg", "route": "intravenous"}], "clinical_notes": "DEOXYCHOLATE formulation (standard). Highly nephrotoxic. Dose: 0.7-1 mg/kg/day. Distinguish from lipid formulations to prevent fatal overdoses.", "is_reserved": true, "pregnancy_category": "B"}
+      ]
+    }
+  },
+  "antivirals": {
+    "anti_influenza": {
+      "baloxavir": [
+        {"generic_name": "Baloxavir marboxil", "trade_name": "XOFLUZA", "manufacturer": "Roche", "atc_code": "J05AX", "regulatory_status": "Rp", "formulations": [{"type": "tablet", "strength": "40 mg", "route": "oral"}], "indications": ["Influenza A and B"], "clinical_notes": "SINGLE DOSE. Novel mechanism (cap-dependent endonuclease inhibitor).", "pregnancy_category": "C"}
+      ]
+    },
+    "hiv_antiretrovirals": {
+      "nrti_combinations": [
+        {"generic_name": "Tenofovir disoproxil + Emtricitabine", "trade_name": "TRUVADA", "manufacturer": "Gilead", "atc_code": "J05AR03", "regulatory_status": "Rp/ZU", "formulations": [{"type": "tablet", "strength": "300mg/200mg", "route": "oral"}], "indications": ["HIV treatment", "PrEP", "HBV"], "pregnancy_category": "B"},
+        {"generic_name": "Abacavir + Lamivudine", "trade_name": "KIVEXA", "manufacturer": "ViiV Healthcare", "atc_code": "J05AR02", "regulatory_status": "Rp/ZU", "formulations": [{"type": "tablet", "strength": "600mg/300mg", "route": "oral"}], "indications": ["HIV treatment"], "clinical_notes": "HLA-B*5701 screening required before abacavir", "pregnancy_category": "C"},
+        {"generic_name": "Tenofovir alafenamide + Emtricitabine", "trade_name": "DESCOVY", "manufacturer": "Gilead", "atc_code": "J05AR17", "regulatory_status": "Rp/ZU", "formulations": [{"type": "tablet", "strength": "25mg/200mg", "route": "oral"}], "indications": ["HIV treatment", "PrEP"], "clinical_notes": "TAF formulation (less nephrotoxic than TDF)", "pregnancy_category": "B"}
+      ],
+      "insti": [
+        {"generic_name": "Dolutegravir", "trade_name": "TIVICAY", "manufacturer": "ViiV Healthcare", "atc_code": "J05AJ12", "regulatory_status": "Rp/ZU", "formulations": [{"type": "tablet", "strength": "50 mg", "route": "oral"}], "indications": ["HIV treatment"], "clinical_notes": "First-line INSTI. High barrier to resistance.", "pregnancy_category": "B"},
+        {"generic_name": "Raltegravir", "trade_name": "ISENTRESS", "manufacturer": "MSD", "atc_code": "J05AJ01", "regulatory_status": "Rp/ZU", "formulations": [{"type": "tablet", "strength": "400 mg", "route": "oral"}], "indications": ["HIV treatment"], "pregnancy_category": "C"}
+      ],
+      "fixed_dose_combinations": [
+        {"generic_name": "Tenofovir alafenamide + Emtricitabine + Bictegravir", "trade_name": "GENVOYA", "manufacturer": "Gilead", "atc_code": "J05AR", "regulatory_status": "Rp/ZU", "formulations": [{"type": "tablet", "strength": "10mg/200mg/25mg", "route": "oral"}], "indications": ["HIV treatment (first-line)"], "pregnancy_category": "B"},
+        {"generic_name": "Abacavir + Lamivudine + Dolutegravir", "trade_name": "TRIUMEQ", "manufacturer": "ViiV Healthcare", "atc_code": "J05AR13", "regulatory_status": "Rp/ZU", "formulations": [{"type": "tablet", "strength": "600mg/300mg/50mg", "route": "oral"}], "indications": ["HIV treatment"], "pregnancy_category": "C"},
+        {"generic_name": "Lamivudine + Dolutegravir", "trade_name": "DOVATO", "manufacturer": "ViiV Healthcare", "atc_code": "J05AR", "regulatory_status": "Rp/ZU", "formulations": [{"type": "tablet", "strength": "300mg/50mg", "route": "oral"}], "indications": ["HIV treatment (2-drug regimen)"], "pregnancy_category": "B"}
+      ]
+    },
+    "hcv_antivirals": {
+      "pangenotypic_combinations": [
+        {"generic_name": "Glecaprevir + Pibrentasvir", "trade_name": "MAVIRET", "manufacturer": "AbbVie", "atc_code": "J05AP08", "regulatory_status": "Rp/ZU", "formulations": [{"type": "tablet", "strength": "100mg/40mg", "route": "oral"}], "indications": ["Hepatitis C (all genotypes)"], "clinical_notes": "Pan-genotypic. 8-16 week regimen.", "pregnancy_category": "N/A"},
+        {"generic_name": "Sofosbuvir + Velpatasvir", "trade_name": "EPCLUSA", "manufacturer": "Gilead", "atc_code": "J05AP09", "regulatory_status": "Rp/ZU", "formulations": [{"type": "tablet", "strength": "400mg/100mg", "route": "oral"}], "indications": ["Hepatitis C (all genotypes)"], "clinical_notes": "Pan-genotypic. Once-daily for 12 weeks.", "pregnancy_category": "N/A"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - BAA-2025</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>About BAA-2025</h1>
+            <h2>Bosnia & Herzegovina Antibiotic Advisor</h2>
+        </header>
+
+        <main>
+            <section>
+                <h3>Mission</h3>
+                <p>The BAA-2025 system bridges the gap between international clinical guidelines and the logistical reality of the Bosnia & Herzegovina pharmaceutical market. It provides hospital-grade antibiotic recommendations using ONLY medications registered in the Registar lijekova BiH 2025.</p>
+            </section>
+
+            <section>
+                <h3>The "Hard-Coded" Philosophy</h3>
+                <p>In clinical settings, <strong>hallucination is malpractice</strong>. The BAA-2025 operates on a "Closed-World Assumption" - it is forbidden from recommending drugs not listed in the 2025 registry.</p>
+                <p>If international guidelines recommend Nafcillin for MSSA, the system automatically substitutes it with Kloksacilin (Syntarpen) - the only beta-lactamase resistant penicillin available in BiH.</p>
+            </section>
+
+            <section>
+                <h3>System Architecture</h3>
+                <ul>
+                    <li><strong>Deterministic Logic:</strong> Hard-coded decision trees, not probabilistic AI</li>
+                    <li><strong>Registry-Based:</strong> Every recommendation verified against BiH 2025 registry</li>
+                    <li><strong>Brand-Specific:</strong> Outputs exact trade names (e.g., "Longaceph", "Azaran", "Sumamed")</li>
+                    <li><strong>Regulatory Compliance:</strong> Enforces ZU vs Rp restrictions</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Contact</h3>
+                <p>For clinical questions, registry updates, or technical support, please contact the development team.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p><a href="/" style="color: white; text-decoration: none;">← Back to Home</a></p>
+        </footer>
+    </div>
+</body>
+</html>

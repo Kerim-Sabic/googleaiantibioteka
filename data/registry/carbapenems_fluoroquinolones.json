@@ -1,0 +1,723 @@
+{
+  "metadata": {
+    "registry_version": "2025",
+    "country": "Bosnia and Herzegovina",
+    "drug_classes": ["Carbapenems", "Fluoroquinolones"],
+    "atc_groups": ["J01DH", "J01MA"],
+    "last_updated": "2025-12-07"
+  },
+  "carbapenems": {
+    "J01DH": [
+      {
+        "generic_name": "Meropenem",
+        "trade_name": "MEROPENEM STADA",
+        "manufacturer": "Stada",
+        "atc_code": "J01DH02",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "500 mg",
+            "route": "intravenous",
+            "unit": "mg"
+          },
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Sepsis", "ESBL infections", "HAP/VAP", "Intra-abdominal sepsis", "Meningitis"],
+        "is_carbapenem": true,
+        "is_antipseudomonal": true,
+        "is_reserved": true,
+        "clinical_notes": "Meningitis: 2g q8h. Standard sepsis: 1g q8h. Consider prolonged infusion for critically ill.",
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Meropenem",
+        "trade_name": "ARCHIFAR",
+        "manufacturer": "Medochemie",
+        "atc_code": "J01DH02",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "500 mg",
+            "route": "intravenous",
+            "unit": "mg"
+          },
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Sepsis", "ESBL infections"],
+        "is_carbapenem": true,
+        "is_antipseudomonal": true,
+        "is_reserved": true,
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Meropenem",
+        "trade_name": "MEROBOCID",
+        "manufacturer": "BCPP",
+        "atc_code": "J01DH02",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Sepsis", "ESBL infections"],
+        "is_carbapenem": true,
+        "is_antipseudomonal": true,
+        "is_reserved": true,
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Meropenem",
+        "trade_name": "MAXIPENEM",
+        "manufacturer": "Menarini",
+        "atc_code": "J01DH02",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Sepsis", "ESBL infections"],
+        "is_carbapenem": true,
+        "is_antipseudomonal": true,
+        "is_reserved": true,
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Meropenem",
+        "trade_name": "MEROPENEM VENUS",
+        "manufacturer": "Venus",
+        "atc_code": "J01DH02",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Sepsis", "ESBL infections"],
+        "is_carbapenem": true,
+        "is_antipseudomonal": true,
+        "is_reserved": true,
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Meropenem",
+        "trade_name": "MEROPENEM PANPHARMA",
+        "manufacturer": "Panpharma",
+        "atc_code": "J01DH02",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Sepsis", "ESBL infections"],
+        "is_carbapenem": true,
+        "is_antipseudomonal": true,
+        "is_reserved": true,
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Imipenem + Cilastatin",
+        "trade_name": "IMIBACID",
+        "manufacturer": "BCPP",
+        "atc_code": "J01DH51",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "500mg/500mg",
+            "route": "intravenous",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Sepsis", "ESBL infections", "Intra-abdominal infections"],
+        "is_carbapenem": true,
+        "is_antipseudomonal": true,
+        "is_reserved": true,
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Imipenem + Cilastatin",
+        "trade_name": "IMIPENEM CILASTATINE PANPHARMA",
+        "manufacturer": "Panpharma",
+        "atc_code": "J01DH51",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "500mg/500mg",
+            "route": "intravenous",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Sepsis", "ESBL infections"],
+        "is_carbapenem": true,
+        "is_antipseudomonal": true,
+        "is_reserved": true,
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Imipenem + Cilastatin",
+        "trade_name": "IMIPENEM/CILASTATIN APTAPHARMA",
+        "manufacturer": "Apta Medica",
+        "atc_code": "J01DH51",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "500mg/500mg",
+            "route": "intravenous",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Sepsis", "ESBL infections"],
+        "is_carbapenem": true,
+        "is_antipseudomonal": true,
+        "is_reserved": true,
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Imipenem + Cilastatin",
+        "trade_name": "IMIPENEM/CILASTATIN KABI",
+        "manufacturer": "Fresenius Kabi",
+        "atc_code": "J01DH51",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "500mg/500mg",
+            "route": "intravenous",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Sepsis", "ESBL infections"],
+        "is_carbapenem": true,
+        "is_antipseudomonal": true,
+        "is_reserved": true,
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Ertapenem",
+        "trade_name": "ERTAPENEM APTAPHARMA",
+        "manufacturer": "Apta Medica",
+        "atc_code": "J01DH03",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["ESBL infections", "Diabetic foot", "Intra-abdominal infections", "OPAT"],
+        "is_carbapenem": true,
+        "is_antipseudomonal": false,
+        "is_reserved": true,
+        "clinical_notes": "NO Pseudomonas coverage. Perfect for OPAT due to once-daily dosing.",
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Imipenem + Cilastatin + Relebaktam",
+        "trade_name": "RECARBRIO",
+        "manufacturer": "MSD",
+        "atc_code": "J01DH51",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_infusion",
+            "strength": "500mg/500mg/250mg",
+            "route": "intravenous",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["KPC-producing organisms", "CRE infections"],
+        "is_carbapenem": true,
+        "is_antipseudomonal": true,
+        "is_reserved": true,
+        "clinical_notes": "HIGHLY RESTRICTED: For KPC and CRE only. Requires ID consultation.",
+        "pregnancy_category": "C"
+      }
+    ]
+  },
+  "fluoroquinolones": {
+    "J01MA": [
+      {
+        "generic_name": "Ciprofloksacin",
+        "trade_name": "CITERAL",
+        "manufacturer": "Alkaloid",
+        "atc_code": "J01MA02",
+        "regulatory_status": "Rp/ZU",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "250 mg",
+            "route": "oral",
+            "unit": "mg"
+          },
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          },
+          {
+            "type": "solution_for_infusion",
+            "strength": "200 mg/100mL",
+            "route": "intravenous",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Pyelonephritis", "Prostatitis", "Pseudomonas infections", "Intra-abdominal infections"],
+        "is_antipseudomonal": true,
+        "clinical_notes": "AVOID for uncomplicated cystitis (resistance >30%). QT prolongation warning.",
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Ciprofloksacin",
+        "trade_name": "CIPRINOL",
+        "manufacturer": "Krka",
+        "atc_code": "J01MA02",
+        "regulatory_status": "Rp/ZU",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          },
+          {
+            "type": "infusion_solution",
+            "strength": "200 mg/100mL",
+            "route": "intravenous",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Pyelonephritis", "Prostatitis"],
+        "is_antipseudomonal": true,
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Ciprofloksacin",
+        "trade_name": "MAROCEN",
+        "manufacturer": "Hemofarm",
+        "atc_code": "J01MA02",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["UTI", "Prostatitis"],
+        "is_antipseudomonal": true,
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Ciprofloksacin",
+        "trade_name": "CIFLOX",
+        "manufacturer": "Farmavita",
+        "atc_code": "J01MA02",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["UTI", "Prostatitis"],
+        "is_antipseudomonal": true,
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Ciprofloksacin",
+        "trade_name": "CIFLOXINAL",
+        "manufacturer": "Various",
+        "atc_code": "J01MA02",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["UTI", "Prostatitis"],
+        "is_antipseudomonal": true,
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Ciprofloksacin",
+        "trade_name": "CIPROFLOXACIN BIOFARMA",
+        "manufacturer": "Biofarma",
+        "atc_code": "J01MA02",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["UTI"],
+        "is_antipseudomonal": true,
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Ciprofloksacin",
+        "trade_name": "CIPROZAD",
+        "manufacturer": "Remedica",
+        "atc_code": "J01MA02",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["UTI"],
+        "is_antipseudomonal": true,
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Ciprofloksacin",
+        "trade_name": "SIPROBEL",
+        "manufacturer": "Belupo",
+        "atc_code": "J01MA02",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "solution_for_infusion",
+            "strength": "200 mg/100mL",
+            "route": "intravenous",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Pyelonephritis", "HAP/VAP"],
+        "is_antipseudomonal": true,
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Ciprofloksacin",
+        "trade_name": "ARISTIN-C",
+        "manufacturer": "Aristopharma",
+        "atc_code": "J01MA02",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "solution_for_infusion",
+            "strength": "200 mg/100mL",
+            "route": "intravenous",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Pyelonephritis", "HAP/VAP"],
+        "is_antipseudomonal": true,
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Levofloksacin",
+        "trade_name": "LEBEL",
+        "manufacturer": "Nobel",
+        "atc_code": "J01MA12",
+        "regulatory_status": "Rp/ZU",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          },
+          {
+            "type": "solution_for_infusion",
+            "strength": "500 mg/100mL",
+            "route": "intravenous",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP (severe)", "Legionella", "Atypical pneumonia", "UTI"],
+        "clinical_notes": "Respiratory quinolone. First-line for Legionella. QT warning.",
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Levofloksacin",
+        "trade_name": "TAVANIC",
+        "manufacturer": "Sanofi",
+        "atc_code": "J01MA12",
+        "regulatory_status": "Rp/ZU",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          },
+          {
+            "type": "solution_for_infusion",
+            "strength": "500 mg/100mL",
+            "route": "intravenous",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP", "Legionella"],
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Levofloksacin",
+        "trade_name": "LEVALOX",
+        "manufacturer": "Krka",
+        "atc_code": "J01MA12",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP", "UTI"],
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Levofloksacin",
+        "trade_name": "FLOXILEVO",
+        "manufacturer": "Farmavita",
+        "atc_code": "J01MA12",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP", "UTI"],
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Levofloksacin",
+        "trade_name": "ALVOLAMID T",
+        "manufacturer": "Alvogen",
+        "atc_code": "J01MA12",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP"],
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Levofloksacin",
+        "trade_name": "LOVETROX",
+        "manufacturer": "Various",
+        "atc_code": "J01MA12",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP"],
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Levofloksacin",
+        "trade_name": "VLOFINOX",
+        "manufacturer": "Various",
+        "atc_code": "J01MA12",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP"],
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Moksifloksacin",
+        "trade_name": "MOXIRAL",
+        "manufacturer": "Various",
+        "atc_code": "J01MA14",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "400 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP", "Aspiration pneumonia", "Intra-abdominal infections"],
+        "clinical_notes": "Hepatobiliary excretion. DO NOT use for UTI. Excellent anaerobic coverage.",
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Moksifloksacin",
+        "trade_name": "MOXIFLOX",
+        "manufacturer": "Farmavita",
+        "atc_code": "J01MA14",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "400 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP", "Aspiration pneumonia"],
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Moksifloksacin",
+        "trade_name": "MOXIFLOXACIN VIOSER",
+        "manufacturer": "Vioser",
+        "atc_code": "J01MA14",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "400 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP"],
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Moksifloksacin",
+        "trade_name": "CENOMAR",
+        "manufacturer": "Sandoz",
+        "atc_code": "J01MA14",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "400 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP"],
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Moksifloksacin",
+        "trade_name": "FLAMIX",
+        "manufacturer": "Hemofarm",
+        "atc_code": "J01MA14",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "400 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP"],
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Norfloksacin",
+        "trade_name": "NOLICIN",
+        "manufacturer": "Krka",
+        "atc_code": "J01MA06",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "400 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Uncomplicated UTI (cystitis)"],
+        "clinical_notes": "STRICTLY for uncomplicated UTIs only. No systemic coverage.",
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Norfloksacin",
+        "trade_name": "NOFLOX",
+        "manufacturer": "Farmavita",
+        "atc_code": "J01MA06",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "400 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Uncomplicated UTI"],
+        "pregnancy_category": "C"
+      },
+      {
+        "generic_name": "Norfloksacin",
+        "trade_name": "NORFLOXACIN REPLEK FARM",
+        "manufacturer": "Replek Farm",
+        "atc_code": "J01MA06",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "400 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Uncomplicated UTI"],
+        "pregnancy_category": "C"
+      }
+    ]
+  }
+}

@@ -1,0 +1,735 @@
+{
+  "metadata": {
+    "registry_version": "2025",
+    "country": "Bosnia and Herzegovina",
+    "drug_class": "Cephalosporins",
+    "atc_groups": ["J01DB", "J01DC", "J01DD", "J01DE", "J01DI"],
+    "last_updated": "2025-12-07"
+  },
+  "first_generation": {
+    "J01DB": [
+      {
+        "generic_name": "Cefaleksin",
+        "trade_name": "CEFALEKSIN HF",
+        "manufacturer": "Hemofarm",
+        "atc_code": "J01DB01",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "capsule",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Uncomplicated skin infections", "Cellulitis", "Pharyngitis (PCN allergy)"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefaleksin",
+        "trade_name": "PALITREX",
+        "manufacturer": "Pali Pharma",
+        "atc_code": "J01DB01",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "capsule",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Skin infections", "UTI"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefaleksin",
+        "trade_name": "CEFALEXIN ALKALOID",
+        "manufacturer": "Alkaloid",
+        "atc_code": "J01DB01",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "capsule",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Skin infections", "UTI"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefaleksin",
+        "trade_name": "CEFALEXIN REMEDICA",
+        "manufacturer": "Remedica",
+        "atc_code": "J01DB01",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "capsule",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Skin infections", "UTI"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefazolin",
+        "trade_name": "CEFAZOLIN QILU",
+        "manufacturer": "Qilu Pharmaceutical",
+        "atc_code": "J01DB04",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          },
+          {
+            "type": "powder_for_injection",
+            "strength": "2 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Surgical prophylaxis", "Skin/soft tissue infections"],
+        "clinical_notes": "GOLD STANDARD for surgical prophylaxis. 2g IV within 60 min of incision (3g if weight >120kg)",
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefazolin",
+        "trade_name": "IESPOR",
+        "manufacturer": "Ibisamed",
+        "atc_code": "J01DB04",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Surgical prophylaxis"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefazolin",
+        "trade_name": "CEFAZOLIN REYOUNG",
+        "manufacturer": "Reyoung",
+        "atc_code": "J01DB04",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Surgical prophylaxis"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefazolin",
+        "trade_name": "CEFAZOLIN-BCPP",
+        "manufacturer": "BCPP",
+        "atc_code": "J01DB04",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Surgical prophylaxis"],
+        "pregnancy_category": "B"
+      }
+    ]
+  },
+  "second_generation": {
+    "J01DC": [
+      {
+        "generic_name": "Cefuroksim aksetil",
+        "trade_name": "ZINNAT",
+        "manufacturer": "GSK",
+        "atc_code": "J01DC02",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "125 mg",
+            "route": "oral",
+            "unit": "mg"
+          },
+          {
+            "type": "tablet",
+            "strength": "250 mg",
+            "route": "oral",
+            "unit": "mg"
+          },
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP", "Acute bronchitis", "Sinusitis", "UTI"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefuroksim aksetil",
+        "trade_name": "AKSEF",
+        "manufacturer": "Sandoz",
+        "atc_code": "J01DC02",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "250 mg",
+            "route": "oral",
+            "unit": "mg"
+          },
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Respiratory infections", "UTI"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefuroksim aksetil",
+        "trade_name": "CEFAKS",
+        "manufacturer": "Alkaloid",
+        "atc_code": "J01DC02",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "250 mg",
+            "route": "oral",
+            "unit": "mg"
+          },
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP", "Sinusitis"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefuroksim aksetil",
+        "trade_name": "FUROCEF",
+        "manufacturer": "Hemofarm",
+        "atc_code": "J01DC02",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP", "Respiratory infections"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefuroksim aksetil",
+        "trade_name": "FUREXTIL",
+        "manufacturer": "Bosnalijek",
+        "atc_code": "J01DC02",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP", "Respiratory infections"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefuroksim sodium",
+        "trade_name": "CEFUROKSIM APTAPHARMA",
+        "manufacturer": "Apta Medica",
+        "atc_code": "J01DC02",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "750 mg",
+            "route": "intravenous",
+            "unit": "mg"
+          },
+          {
+            "type": "powder_for_injection",
+            "strength": "1.5 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["CAP", "Surgical prophylaxis", "Skin infections"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefuroksim sodium",
+        "trade_name": "CEFUROXIME-BCPP",
+        "manufacturer": "BCPP",
+        "atc_code": "J01DC02",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "750 mg",
+            "route": "intravenous",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["CAP", "Surgical prophylaxis"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefaklor",
+        "trade_name": "CEFACLOR ALKALOID",
+        "manufacturer": "Alkaloid",
+        "atc_code": "J01DC04",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "capsule",
+            "strength": "500 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["Respiratory infections", "UTI"],
+        "pregnancy_category": "B"
+      }
+    ]
+  },
+  "third_generation": {
+    "J01DD": [
+      {
+        "generic_name": "Ceftriakson",
+        "trade_name": "AZARAN",
+        "manufacturer": "Hemofarm",
+        "atc_code": "J01DD04",
+        "regulatory_status": "Rp/ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          },
+          {
+            "type": "powder_for_injection",
+            "strength": "2 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Meningitis", "CAP", "Pyelonephritis", "Sepsis", "Gonorrhea"],
+        "clinical_notes": "Meningitis: 2g IV q12h (4g/day). CAP/Pyelonephritis: 2g IV q24h",
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Ceftriakson",
+        "trade_name": "LONGACEPH",
+        "manufacturer": "Medochemie",
+        "atc_code": "J01DD04",
+        "regulatory_status": "Rp/ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          },
+          {
+            "type": "powder_for_injection",
+            "strength": "2 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Meningitis", "CAP", "Pyelonephritis", "Sepsis"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Ceftriakson",
+        "trade_name": "CEFTRIAKSON APTAPHARMA",
+        "manufacturer": "Apta Medica",
+        "atc_code": "J01DD04",
+        "regulatory_status": "Rp/ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          },
+          {
+            "type": "powder_for_injection",
+            "strength": "2 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Meningitis", "CAP", "Pyelonephritis"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Ceftriakson",
+        "trade_name": "CEFTRIAXONE-BCPP",
+        "manufacturer": "BCPP",
+        "atc_code": "J01DD04",
+        "regulatory_status": "Rp/ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["CAP", "Pyelonephritis"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Ceftriakson",
+        "trade_name": "CEFRIDEM",
+        "manufacturer": "Deva",
+        "atc_code": "J01DD04",
+        "regulatory_status": "Rp/ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["CAP", "Pyelonephritis"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Ceftazidim",
+        "trade_name": "CEFTAZIDIM APTAPHARMA",
+        "manufacturer": "Apta Medica",
+        "atc_code": "J01DD02",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          },
+          {
+            "type": "powder_for_injection",
+            "strength": "2 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["HAP/VAP", "Neutropenic fever", "Pseudomonas infections"],
+        "is_antipseudomonal": true,
+        "clinical_notes": "First-line cephalosporin for Pseudomonas coverage",
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Ceftazidim",
+        "trade_name": "ZACEF",
+        "manufacturer": "BCPP",
+        "atc_code": "J01DD02",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["HAP/VAP", "Pseudomonas"],
+        "is_antipseudomonal": true,
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefotaksim",
+        "trade_name": "CEFOTAKSIM APTAPHARMA",
+        "manufacturer": "Apta Medica",
+        "atc_code": "J01DD01",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Meningitis", "Sepsis"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefiksim",
+        "trade_name": "PANCEF",
+        "manufacturer": "Alkaloid",
+        "atc_code": "J01DD08",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "400 mg",
+            "route": "oral",
+            "unit": "mg"
+          },
+          {
+            "type": "oral_suspension",
+            "strength": "100 mg/5mL",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["UTI", "Respiratory infections", "Gonorrhea"],
+        "clinical_notes": "Verify no ESBL colonization before use",
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefiksim",
+        "trade_name": "CEFAPAN",
+        "manufacturer": "Hemofarm",
+        "atc_code": "J01DD08",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "400 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["UTI", "Respiratory infections"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefiksim",
+        "trade_name": "TRYCCEF",
+        "manufacturer": "Bosnalijek",
+        "atc_code": "J01DD08",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "400 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["UTI", "Respiratory infections"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefiksim",
+        "trade_name": "NEOCEF",
+        "manufacturer": "Galenika",
+        "atc_code": "J01DD08",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "400 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["UTI", "Respiratory infections"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefpodoksim",
+        "trade_name": "CEFPODOXIM SANDOZ",
+        "manufacturer": "Sandoz",
+        "atc_code": "J01DD13",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "100 mg",
+            "route": "oral",
+            "unit": "mg"
+          },
+          {
+            "type": "tablet",
+            "strength": "200 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["UTI", "Respiratory infections"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefpodoksim",
+        "trade_name": "FOXERO",
+        "manufacturer": "Krka",
+        "atc_code": "J01DD13",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "100 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["UTI", "Respiratory infections"],
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefpodoksim",
+        "trade_name": "SEFPOTEC",
+        "manufacturer": "Anfarm",
+        "atc_code": "J01DD13",
+        "regulatory_status": "Rp",
+        "formulations": [
+          {
+            "type": "tablet",
+            "strength": "100 mg",
+            "route": "oral",
+            "unit": "mg"
+          }
+        ],
+        "indications": ["UTI", "Respiratory infections"],
+        "pregnancy_category": "B"
+      }
+    ]
+  },
+  "fourth_generation": {
+    "J01DE": [
+      {
+        "generic_name": "Cefepim",
+        "trade_name": "CEFEPIM HF",
+        "manufacturer": "Hemofarm",
+        "atc_code": "J01DE01",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          },
+          {
+            "type": "powder_for_injection",
+            "strength": "2 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Neutropenic fever", "HAP/VAP", "Pseudomonas infections"],
+        "is_antipseudomonal": true,
+        "clinical_notes": "Reserved for neutropenic fever and severe Pseudomonas infections",
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefepim",
+        "trade_name": "CEFEPIM QILU",
+        "manufacturer": "Qilu Pharmaceutical",
+        "atc_code": "J01DE01",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Neutropenic fever", "HAP/VAP"],
+        "is_antipseudomonal": true,
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Cefepim",
+        "trade_name": "CEBOPIM",
+        "manufacturer": "BCPP",
+        "atc_code": "J01DE01",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_injection",
+            "strength": "1 g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["Neutropenic fever"],
+        "is_antipseudomonal": true,
+        "pregnancy_category": "B"
+      }
+    ]
+  },
+  "fifth_generation_combinations": {
+    "J01DI": [
+      {
+        "generic_name": "Ceftazidim + Avibaktam",
+        "trade_name": "ZAVICEFTA",
+        "manufacturer": "Pfizer",
+        "atc_code": "J01DI54",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_infusion",
+            "strength": "2g/0.5g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["CRE infections", "MDR Pseudomonas", "ESBL with carbapenem resistance"],
+        "is_antipseudomonal": true,
+        "is_reserved": true,
+        "clinical_notes": "RESTRICTED: Requires microbiology confirmation. For CRE or DTR-Pseudomonas only.",
+        "pregnancy_category": "B"
+      },
+      {
+        "generic_name": "Ceftolozan + Tazobaktam",
+        "trade_name": "ZERBAXA",
+        "manufacturer": "MSD",
+        "atc_code": "J01DI54",
+        "regulatory_status": "ZU",
+        "formulations": [
+          {
+            "type": "powder_for_infusion",
+            "strength": "1g/0.5g",
+            "route": "intravenous",
+            "unit": "g"
+          }
+        ],
+        "indications": ["MDR Pseudomonas", "HAP/VAP", "Complicated intra-abdominal infections"],
+        "is_antipseudomonal": true,
+        "is_reserved": true,
+        "clinical_notes": "RESTRICTED: For difficult-to-treat Pseudomonas. Requires ID consultation.",
+        "pregnancy_category": "B"
+      }
+    ]
+  }
+}

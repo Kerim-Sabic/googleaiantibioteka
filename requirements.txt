@@ -1,0 +1,28 @@
+# Bosnia & Herzegovina Antibiotic Advisor (BAA-2025)
+# Python Dependencies
+
+# Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# Data Validation
+pydantic==2.5.0
+
+# Database (if needed for sessions/logging)
+SQLAlchemy==2.0.23
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Development & Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+black==23.12.1
+flake8==6.1.0
+
+# Medical Calculations
+scipy==1.11.4
+
+# API Documentation (optional)
+flask-swagger-ui==4.11.1

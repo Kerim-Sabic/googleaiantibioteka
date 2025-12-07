@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "registry_version": "2025",
+    "country": "Bosnia and Herzegovina",
+    "drug_classes": ["Macrolides", "Aminoglycosides", "Glycopeptides", "Other Antibacterials"],
+    "atc_groups": ["J01FA", "J01GB", "J01XA", "J01XX", "J01FF", "J01XD", "J01AA"],
+    "last_updated": "2025-12-07"
+  },
+  "macrolides": {
+    "azithromycin": [
+      {"generic_name": "Azitromicin", "trade_name": "SUMAMED", "manufacturer": "Pliva", "atc_code": "J01FA10", "regulatory_status": "Rp", "formulations": [{"type": "tablet", "strength": "500 mg", "route": "oral"}, {"type": "oral_suspension", "strength": "200mg/5mL", "route": "oral"}], "indications": ["CAP", "Atypical pneumonia", "Pharyngitis"], "pregnancy_category": "B"},
+      {"generic_name": "Azitromicin", "trade_name": "HEMOMYCIN", "manufacturer": "Hemofarm", "atc_code": "J01FA10", "regulatory_status": "Rp", "formulations": [{"type": "tablet", "strength": "500 mg", "route": "oral"}], "pregnancy_category": "B"},
+      {"generic_name": "Azitromicin", "trade_name": "AZAX", "manufacturer": "Nobel", "atc_code": "J01FA10", "regulatory_status": "Rp", "formulations": [{"type": "tablet", "strength": "500 mg", "route": "oral"}], "pregnancy_category": "B"}
+    ],
+    "clarithromycin": [
+      {"generic_name": "Klaritromicin", "trade_name": "KLACID", "manufacturer": "BGP", "atc_code": "J01FA09", "regulatory_status": "Rp", "formulations": [{"type": "tablet", "strength": "500 mg", "route": "oral"}], "clinical_notes": "WARNING: Statin interaction (simvastatin/atorvastatin)", "pregnancy_category": "C"},
+      {"generic_name": "Klaritromicin", "trade_name": "FROMILID", "manufacturer": "Krka", "atc_code": "J01FA09", "regulatory_status": "Rp", "formulations": [{"type": "tablet", "strength": "500 mg", "route": "oral"}], "pregnancy_category": "C"}
+    ],
+    "erythromycin": [
+      {"generic_name": "Eritromicin", "trade_name": "ERITROMICIN HEMOFARM", "manufacturer": "Hemofarm", "atc_code": "J01FA01", "regulatory_status": "Rp", "formulations": [{"type": "tablet", "strength": "500 mg", "route": "oral"}], "pregnancy_category": "B"}
+    ]
+  },
+  "aminoglycosides": {
+    "gentamicin": [
+      {"generic_name": "Gentamicin", "trade_name": "GENTAMICIN GALENIKA", "manufacturer": "Galenika", "atc_code": "J01GB03", "regulatory_status": "ZU", "formulations": [{"type": "solution_for_injection", "strength": "80 mg/2mL", "route": "intravenous"}], "clinical_notes": "Nephrotoxic/ototoxic. Requires therapeutic monitoring. Once-daily dosing preferred.", "pregnancy_category": "D"}
+    ],
+    "amikacin": [
+      {"generic_name": "Amikacin", "trade_name": "AMIKACIN GALENIKA", "manufacturer": "Galenika", "atc_code": "J01GB06", "regulatory_status": "ZU", "formulations": [{"type": "solution_for_injection", "strength": "500 mg/2mL", "route": "intravenous"}], "clinical_notes": "15-20 mg/kg IV once daily. Monitor trough <5 mcg/mL", "is_antipseudomonal": true, "pregnancy_category": "D"},
+      {"generic_name": "Amikacin", "trade_name": "AMIKAN", "manufacturer": "Hemofarm", "atc_code": "J01GB06", "regulatory_status": "ZU", "formulations": [{"type": "solution_for_injection", "strength": "500 mg/2mL", "route": "intravenous"}], "pregnancy_category": "D"}
+    ],
+    "tobramycin": [
+      {"generic_name": "Tobramicin", "trade_name": "TOBRAMYCIN ANFARM", "manufacturer": "Anfarm", "atc_code": "J01GB01", "regulatory_status": "ZU", "formulations": [{"type": "solution_for_injection", "strength": "80 mg/2mL", "route": "intravenous"}], "pregnancy_category": "D"}
+    ]
+  },
+  "glycopeptides": {
+    "vancomycin": [
+      {"generic_name": "Vankomicin", "trade_name": "EDICIN", "manufacturer": "Sandoz", "atc_code": "J01XA01", "regulatory_status": "ZU", "formulations": [{"type": "powder_for_injection", "strength": "500 mg", "route": "intravenous"}, {"type": "powder_for_injection", "strength": "1 g", "route": "intravenous"}], "is_anti_mrsa": true, "clinical_notes": "Dose: 15-20 mg/kg IV q8-12h. Target trough 15-20 mg/L for serious infections.", "pregnancy_category": "C"},
+      {"generic_name": "Vankomicin", "trade_name": "VANKOMICIN PHARMAS", "manufacturer": "Pharmas", "atc_code": "J01XA01", "regulatory_status": "ZU", "formulations": [{"type": "capsule", "strength": "125 mg", "route": "oral"}, {"type": "capsule", "strength": "250 mg", "route": "oral"}], "indications": ["C. difficile infection"], "clinical_notes": "Oral formulation for C. diff only (not absorbed systemically)", "is_anti_mrsa": false, "pregnancy_category": "C"}
+    ],
+    "teicoplanin": [
+      {"generic_name": "Teikoplanin", "trade_name": "PLANICID", "manufacturer": "Centurion", "atc_code": "J01XA02", "regulatory_status": "ZU", "formulations": [{"type": "powder_for_injection", "strength": "400 mg", "route": "intravenous"}], "is_anti_mrsa": true, "clinical_notes": "Alternative to vancomycin if contraindicated", "pregnancy_category": "C"}
+    ]
+  },
+  "lincosamides": {
+    "clindamycin": [
+      {"generic_name": "Klindamicin", "trade_name": "KLIMICIN", "manufacturer": "Sandoz", "atc_code": "J01FF01", "regulatory_status": "Rp/ZU", "formulations": [{"type": "capsule", "strength": "300 mg", "route": "oral"}, {"type": "solution_for_injection", "strength": "600 mg/4mL", "route": "intravenous"}], "indications": ["Anaerobic infections", "Aspiration pneumonia", "Diabetic foot", "Skin infections (MSSA/Strep)"], "clinical_notes": "Excellent anaerobic coverage above diaphragm. C. diff risk.", "pregnancy_category": "B"},
+      {"generic_name": "Klindamicin", "trade_name": "DALACIN C", "manufacturer": "Pfizer", "atc_code": "J01FF01", "regulatory_status": "Rp/ZU", "formulations": [{"type": "capsule", "strength": "300 mg", "route": "oral"}], "pregnancy_category": "B"}
+    ]
+  },
+  "tetracyclines": {
+    "doxycycline": [
+      {"generic_name": "Doksiciklin", "trade_name": "DOVICIN", "manufacturer": "Galenika", "atc_code": "J01AA02", "regulatory_status": "Rp", "formulations": [{"type": "capsule", "strength": "100 mg", "route": "oral"}], "indications": ["CAP (alternative)", "Atypical pneumonia", "Lyme disease", "Syphilis (PCN allergy)"], "pregnancy_category": "D"},
+      {"generic_name": "Doksiciklin", "trade_name": "DOKSICIKLIN HF", "manufacturer": "Hemofarm", "atc_code": "J01AA02", "regulatory_status": "Rp", "formulations": [{"type": "capsule", "strength": "100 mg", "route": "oral"}], "pregnancy_category": "D"}
+    ]
+  },
+  "nitroimidazoles": {
+    "metronidazole": [
+      {"generic_name": "Metronidazol", "trade_name": "ORVAGIL", "manufacturer": "Galenika", "atc_code": "J01XD01", "regulatory_status": "Rp/ZU", "formulations": [{"type": "tablet", "strength": "250 mg", "route": "oral"}, {"type": "tablet", "strength": "500 mg", "route": "oral"}], "indications": ["Anaerobic infections", "C. difficile (first episode)", "Intra-abdominal infections"], "pregnancy_category": "B"},
+      {"generic_name": "Metronidazol", "trade_name": "METRONIDAZOL FRESENIUS", "manufacturer": "Fresenius Kabi", "atc_code": "J01XD01", "regulatory_status": "ZU", "formulations": [{"type": "solution_for_infusion", "strength": "500 mg/100mL", "route": "intravenous"}], "pregnancy_category": "B"}
+    ]
+  },
+  "oxazolidinones": {
+    "linezolid": [
+      {"generic_name": "Linezolid", "trade_name": "ZENIX", "manufacturer": "Hemofarm", "atc_code": "J01XX08", "regulatory_status": "ZU", "formulations": [{"type": "tablet", "strength": "600 mg", "route": "oral"}, {"type": "solution_for_infusion", "strength": "600 mg/300mL", "route": "intravenous"}], "is_anti_mrsa": true, "is_reserved": true, "clinical_notes": "MRSA pneumonia/skin infections. Oral bioavailability 100%. High cost. Thrombocytopenia risk >14 days.", "pregnancy_category": "C"}
+    ]
+  },
+  "polymyxins": {
+    "colistin": [
+      {"generic_name": "Kolistin", "trade_name": "COLISTIN ALTAN", "manufacturer": "Altan", "atc_code": "J01XB01", "regulatory_status": "ZU", "formulations": [{"type": "powder_for_injection", "strength": "1 MIU", "route": "intravenous"}], "is_antipseudomonal": true, "is_reserved": true, "clinical_notes": "LAST-LINE for MDR Acinetobacter/Pseudomonas. Nephrotoxic. Loading dose required.", "pregnancy_category": "C"}
+    ]
+  },
+  "urinary_antiseptics": {
+    "fosfomycin": [
+      {"generic_name": "Fosfomicin", "trade_name": "MONURAL", "manufacturer": "Zambon", "atc_code": "J01XX01", "regulatory_status": "Rp", "formulations": [{"type": "sachet", "strength": "3 g", "route": "oral"}], "indications": ["Uncomplicated cystitis (female)"], "clinical_notes": "SINGLE DOSE. First-line for female uncomplicated UTI.", "pregnancy_category": "B"}
+    ],
+    "nitrofurantoin": [
+      {"generic_name": "Nitrofurantoin", "trade_name": "NIFURAN", "manufacturer": "Zada", "atc_code": "J01XE01", "regulatory_status": "Rp", "formulations": [{"type": "capsule", "strength": "100 mg", "route": "oral"}], "indications": ["Uncomplicated UTI"], "clinical_notes": "AVOID in renal failure (CrCl <30). UTI only.", "pregnancy_category": "B"}
+    ]
+  }
+}
