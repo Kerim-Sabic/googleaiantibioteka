@@ -1,8 +1,31 @@
 # Bosnia & Herzegovina Antibiotic Advisor (BAA-2025)
 
+[![Netlify Status](https://img.shields.io/badge/Netlify-Ready-00C7B7?logo=netlify)](https://www.netlify.com)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python)](https://www.python.org)
+[![License](https://img.shields.io/badge/License-Clinical%20Use-blue)](LICENSE)
+
 ## Executive Summary
 
-The BAA-2025 is a hospital-grade, deterministic clinical decision support system designed specifically for Bosnia and Herzegovina healthcare providers. Unlike probabilistic AI models, this system operates on a "Closed-World Assumption," recommending ONLY medications registered in the **Registar lijekova Bosne i Hercegovine 2025**.
+The BAA-2025 is a hospital-grade, deterministic clinical decision support system designed specifically for Bosnia and Herzegovina healthcare providers. Unlike probabilistic AI models, this system operates on a **"Closed-World Assumption"** - recommending ONLY medications registered in the **Registar lijekova Bosne i Hercegovine 2025**.
+
+**Key Innovation**: Zero hallucinations. The system automatically substitutes unavailable international drugs (e.g., Nafcillin → Kloksacilin/Syntarpen) without user intervention, bridging the gap between global guidelines and local availability.
+
+## 🚀 Quick Deploy
+
+### Deploy to Netlify (Recommended)
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Kerim-Sabic/googleaiantibioteka)
+
+**Steps:**
+1. Click the button above (or manually add the repo in Netlify)
+2. Configure build settings:
+   - **Publish directory**: `public`
+   - **Functions directory**: `netlify/functions`
+3. Deploy!
+
+Your site will be live at `https://[your-site-name].netlify.app`
+
+**Full deployment guide**: See [NETLIFY_DEPLOYMENT.md](NETLIFY_DEPLOYMENT.md)
 
 ## Key Features
 

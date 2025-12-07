@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAA-2025 - Bosnia & Herzegovina Antibiotic Advisor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥 BAA-2025</h1>
+            <h2>Bosnia & Herzegovina Antibiotic Advisor</h2>
+            <p class="subtitle">Hospital-Grade Clinical Decision Support System</p>
+        </header>
+
+        <div class="warning-banner">
+            <strong>⚕️ For Healthcare Professionals Only</strong>
+            <p>This system recommends ONLY medications registered in the Registar lijekova Bosne i Hercegovine 2025</p>
+        </div>
+
+        <main>
+            <section class="info-section">
+                <h3>System Features</h3>
+                <ul>
+                    <li><strong>Zero Hallucinations:</strong> Only recommends drugs actually available in BiH</li>
+                    <li><strong>Brand-Specific:</strong> Provides exact trade names, manufacturers, and formulations</li>
+                    <li><strong>Regulatory Aware:</strong> Distinguishes between ZU (hospital-only) and Rp (prescription) drugs</li>
+                    <li><strong>Automatic Substitutions:</strong> Replaces unavailable international drugs (e.g., Nafcillin → Syntarpen)</li>
+                    <li><strong>Dose Calculations:</strong> Pediatric weight-based, renal adjustments, hepatic dosing</li>
+                    <li><strong>Safety Checks:</strong> Allergy verification, drug interactions, contraindications</li>
+                </ul>
+            </section>
+
+            <section class="coverage-section">
+                <h3>Drug Registry Coverage</h3>
+                <div class="drug-classes">
+                    <div class="drug-class">
+                        <h4>β-Lactams</h4>
+                        <p>Penicillins, Cephalosporins (1st-5th gen), Carbapenems</p>
+                    </div>
+                    <div class="drug-class">
+                        <h4>Fluoroquinolones</h4>
+                        <p>Ciprofloxacin, Levofloxacin, Moxifloxacin</p>
+                    </div>
+                    <div class="drug-class">
+                        <h4>Other Antibacterials</h4>
+                        <p>Macrolides, Aminoglycosides, Vancomycin, Linezolid</p>
+                    </div>
+                    <div class="drug-class">
+                        <h4>Antifungals & Antivirals</h4>
+                        <p>Azoles, Echinocandins, HIV/HCV agents</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="clinical-scenarios">
+                <h3>Supported Clinical Scenarios</h3>
+                <ul>
+                    <li>Community-Acquired Pneumonia (CAP)</li>
+                    <li>Hospital-Acquired Pneumonia (HAP) / Ventilator-Associated Pneumonia (VAP)</li>
+                    <li>Urinary Tract Infections (Cystitis, Pyelonephritis)</li>
+                    <li>Bacterial Meningitis</li>
+                    <li>Skin & Soft Tissue Infections</li>
+                    <li>Intra-Abdominal Infections</li>
+                    <li>Sepsis & Septic Shock</li>
+                    <li>Neutropenic Fever</li>
+                </ul>
+            </section>
+
+            <section class="api-section">
+                <h3>API Documentation</h3>
+                <p>The BAA-2025 system provides a RESTful API for integration with hospital information systems.</p>
+
+                <h4>Endpoints:</h4>
+                <ul>
+                    <li><code>POST /api/recommend</code> - Generate antibiotic recommendation</li>
+                    <li><code>GET /api/drugs/search?generic={name}</code> - Search drugs by generic name</li>
+                    <li><code>GET /api/drugs/antipseudomonal</code> - List all antipseudomonal drugs</li>
+                    <li><code>GET /api/drugs/anti-mrsa</code> - List all anti-MRSA drugs</li>
+                    <li><code>GET /api/health</code> - Health check</li>
+                </ul>
+
+                <h4>Example Request:</h4>
+                <pre><code>POST /api/recommend
+{
+  "patient": {
+    "demographics": {
+      "age_years": 35,
+      "gender": "male",
+      "weight_kg": 75
+    },
+    "physiology": {
+      "serum_creatinine_mg_dl": 1.2
+    },
+    "allergies": []
+  },
+  "infection": {
+    "site": "community_acquired_pneumonia",
+    "acquisition": "community_acquired",
+    "severity": "moderate"
+  }
+}</code></pre>
+
+                <h4>Try the API:</h4>
+                <button id="test-api-btn" class="btn-primary">Test API (/api/health)</button>
+                <div id="api-response" class="api-response"></div>
+            </section>
+
+            <section class="registry-info">
+                <h3>Registry Information</h3>
+                <p><strong>Version:</strong> Registar lijekova Bosne i Hercegovine 2025</p>
+                <p><strong>Last Updated:</strong> December 2025</p>
+                <p><strong>Total Drugs:</strong> 1000+ formulations across all antimicrobial classes</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 BAA-2025 - Bosnia & Herzegovina Antibiotic Advisor</p>
+            <p>For Clinical Use Only | Not for Direct Patient Use</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
